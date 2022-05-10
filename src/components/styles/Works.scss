@@ -1,0 +1,92 @@
+.works {
+  display: flex;
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: #000;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.header__P {
+  color: #fff;
+}
+
+.project1 {
+  flex: 1;
+
+  font-size: 12px;
+  height: 400px;
+
+  background-color: #fff;
+  margin: 30px;
+  border-radius: 15px;
+  &:hover {
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+  }
+}
+.featured__p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex__p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 2rem;
+  margin-right: 1rem;
+  margin-left: 8rem;
+  background: rgb(96, 43, 233);
+  color: white;
+  padding: 10px 15px;
+
+  border: 1px solid #fff;
+
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.project__img {
+  height: 170px;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 15px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.featured__p {
+  padding: 10x;
+}
+.flex__P {
+  padding: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .works {
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+  }
+  .btn {
+    margin-bottom: 2rem;
+
+    align-items: center;
+    justify-content: center;
+  }
+}
