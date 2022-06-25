@@ -24,15 +24,15 @@ const Header = ({ toggle }) => {
           </div>
 
           <li>
-            <Link to="/About">About</Link>
+            <a href="#about">About</a>
           </li>
 
           <li>
-            <Link to="/work">Work</Link>
+            <a  href="#works">Work</a>
           </li>
 
           <li>
-            <Link to="/contact">Contact</Link>
+            <a to="/contact">Contact</a>
           </li>
         </ul>
       </nav>

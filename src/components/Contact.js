@@ -1,9 +1,8 @@
 import { ArrowBack } from "@material-ui/icons";
-import React, { form, useState } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "react-router-dom";
-import "./styles/Contact.scss"
-
+import "./styles/Contact.scss";
 
 const Result = () => {
   return <p>successfully sent.I will contact you soon!</p>;
@@ -40,8 +39,7 @@ const Contact = (props) => {
       </Link>
       <div className="inputs">
         <h1>Contact</h1>
-
-        <form ref={form} onSubmit={sendEmail}>
+        <form action="" onSubmit={sendEmail}>
           <label>Name</label>
           <input type="text" name="name" />
           <label>Email</label>
